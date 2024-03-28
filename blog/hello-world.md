@@ -10,7 +10,7 @@ tags: blog
 
 本来是用 Netlify，把这个基于 Hexo 的博客给复活了。但是找主题的时候，发现大部分都没怎么维护了，一直没找到满意的，足够简洁的。
 
-于是最近在本地尝试了 Hugo，Gastby。最后，看到[Randy's Blog](https://lutaonan.com/blog/)基于 Eleventy 搭建的样子，非常喜欢，就有了现在的样子。最终和用的 Hexo 主题[hexo-theme-oasis](https://github.com/qiantao94/hexo-theme-oasis)非常像，但是自定义起来简单了许多。本来用着 Netlify 来驱动的，但想着域名和 CDN 都用着 Cloudflare 了，就叛逃到了 Cloudflare Pages 了。Cloudflare 的后台交互非常直观，域名收费也都是最低价格。
+于是最近在本地尝试了 Hugo，Gastby。最后，看到[Randy's Blog](https://www.lutaonan.com/blog/)基于 Eleventy 搭建的样子，非常喜欢，就有了现在的样子。最终和用的 Hexo 主题[hexo-theme-oasis](https://github.com/qiantao94/hexo-theme-oasis)非常像，但是自定义起来简单了许多。本来用着 Netlify 来驱动的，但想着域名和 CDN 都用着 Cloudflare 了，就叛逃到了 Cloudflare Pages 了。Cloudflare 的后台交互非常直观，域名收费也都是最低价格。
 
 ### Hugo 痛点
 - Hexo 的 markdown 文件，不能无痛的转移。比如 date，tags，都需要额外处理。
@@ -26,4 +26,4 @@ Eleventy 整体就清爽太多了，看看目录下的 config 数量就很放松
   config.addPassthroughCopy({"images/": "blog/images/"});
 ```
 
-再次提醒自己[不要一直使用新工具](https://blog.6path.com/blog/no-more-tools/)。博客是用来记录，用来输出的。希望下一次改版也是 8 年之后吧，但是这之间，还是默默的输出吧。
+再次提醒自己[不要一直使用新工具](https://www.6path.com/blog/no-more-tools/)。博客是用来记录，用来输出的。希望下一次改版也是 8 年之后吧，但是这之间，还是默默的输出吧。
